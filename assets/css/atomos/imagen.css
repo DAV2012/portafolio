@@ -1,0 +1,52 @@
+.a-img-perfil{
+    width: 98px;
+}
+
+.a-img--firma{
+    width: 140px;
+    height: 52px;
+    padding: 1rem  0;
+}
+
+.a-img-estudio{
+
+    width:90%;
+    height: auto;
+
+    
+}
+
+.a-img-experiencia{
+    width: 100%;
+    height: auto;
+}
+
+.a-img-contacto{
+    display: none;
+    width: 30%;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .a-img-perfil{
+        width: 146px;
+        height: 146px
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .a-img-perfil{
+        width: 368px;
+        height: 368px;
+    }
+    .a-img-experiencia{
+        width: 50%;
+       
+    }
+
+    .a-img-contacto{
+        display: block;
+    }
+    
+}

@@ -1,0 +1,25 @@
+.label{
+    transform: translateY(-2.8rem);
+    font-size: 16px;
+    line-height: 20px;
+    transition: all 0.25s;  
+    color: #A2A2A2;
+    padding-left: 1rem;
+
+}
+
+
+
+.label__textarea{
+    transform: translateY(-7.5rem);
+    font-size: 16px;
+    line-height: 20px;
+    transition: all 0.25s;  
+    color: #A2A2A2;
+    padding-left: 1rem;
+    
+}
+
+.label:hover{
+    color: var(--secondary-color);
+}

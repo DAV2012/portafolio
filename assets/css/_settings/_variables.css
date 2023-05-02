@@ -1,0 +1,35 @@
+
+:root {
+  --font-family-body: "Raleway", sans-serif;
+  --font-family-logo: "Raleway", sans-serif;
+  --font-height: 1rem;
+
+  --font-weigth-title: 700;
+  --font-weigth-subTitle-1:600;
+  --font-weigth-subTitle-2:500;
+  --font-weigth-parrafo: 400;
+
+  --font-size-logo: 1rem;
+  --font-size-card-title: 1rem;
+  --font-size-input-label: 16px;
+  --font-size-button: 14px;
+  --font-size-form-fieldset: 22px;
+  --font-size-table-header: 22px;
+  --font-size-modal-title: 28px;
+  --font-size-modal-title-secundary: 28px;
+  --font-size-modal-button: 28px;
+  
+
+  --primary-color:  #F5F5F5;
+  --secondary-color: #2A7AE4;
+  --dark-color: #464646;
+  --contrast-dark-color: #EAF2FD;
+
+  --contrast-light-color: #fff;
+  --warning-color: #df2525;
+  --success-color: #047900;
+  --transparency-color: #4d4d4d33;
+
+  --shadow: 0 5px 10px #55a6ff38;
+  }
+  

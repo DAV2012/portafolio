@@ -1,0 +1,106 @@
+.m-contenedor{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    
+}
+
+.m-contenedor--colum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+
+}
+
+.m-contenedor--skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: white;
+    width: calc(50% - 3rem);
+    height: 118px;
+    flex-grow: 1; 
+}
+
+.m-contenedor--academico{                                                                              
+
+    width: 100%;
+    flex-grow: 1;
+   
+}
+
+.m-contenedor--experiencia{                                                                              
+    align-items: center;
+    width: 100%;
+    flex-grow: 1;
+    gap: 1rem;
+   
+}
+.m-contenedor--blue{
+    background-color: #EAF2FD;
+    padding: 1rem;
+}
+
+.m-contenedor--form{
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .m-contenedor--colum{
+        padding: 1rem 2rem;
+    }
+    .m-contenedor--blue{
+        background-color: #EAF2FD;
+        padding: 2rem;
+    }
+
+    .m-contenedor--skill{
+        
+        width: calc(33.33% - 3rem)
+    }
+
+    .m-contenedor--academico{                                                                              
+       
+        width: calc(33.33% - 7rem);
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    .m-contenedor--titulo{
+        max-width: 751px;
+        max-height: 246px;
+    }
+    .m-contenedor--blue{
+        background-color: #EAF2FD;
+        padding: 1rem 9.5rem;
+    }
+    .m-contenedor--colum{
+        padding: 1rem 9.5rem;
+    }
+
+    .m-contenedor--reverse-flow{
+        flex-direction: row-reverse;
+        
+    }
+
+    .m-contenedor--skill{
+
+        width: calc(16.66% - 10rem)
+    }
+
+    .m-contenedor--academico{                                                                              
+       
+        width: calc(33.33% - 7rem);
+    }
+}

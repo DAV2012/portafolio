@@ -1,0 +1,10 @@
+.a-i{
+
+    font-size: 32px;
+    line-height: 37px;
+    color: var(--secondary-color);
+}
+
+.a-i--link{
+    transform: rotate(135deg);
+}

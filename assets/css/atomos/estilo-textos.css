@@ -1,0 +1,84 @@
+.a-h1{
+    width: 100%;
+    font-family: var(--font-family-body);
+    font-style: normal;
+    font-weight: var(--font-weigth-title);
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    margin: 0.5rem 0;
+}
+
+.a-h1--centrado{
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.a-h2{
+    width: 100%;
+    font-family: var(--font-family-body);
+    font-style: normal;
+    font-weight: var(--font-weigth-title);
+    color: #464646;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0.5rem 0;
+
+}
+.a-h3{
+    width: 100%;
+    font-family: var(--font-family-body);
+    font-style: normal;
+    font-weight: var(--font-weigth-subTitle-2);
+    color: #464646;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0.5rem 0;
+
+}
+
+
+.a-p{
+    width: 100%;
+    font-family: var(--font-family-body);
+    font-style: normal;
+    font-weight: var(--font-weigth-parrafo);
+    color: #464646;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0.5rem 0;
+}
+
+.a-p--titulo{
+    width: 100%;
+    font-weight: var(--font-weigth-subTitle-2);
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0.5rem 0;
+}
+
+
+@media screen and (min-width:1440px) {
+    .a-p{
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+    .a-h1{  
+
+        font-size: 52px;
+        line-height: 61px;
+    }
+
+    .a-h2{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .a-p--titulo{
+        font-weight: var(--font-weigth-subTitle-2);
+        font-size: 22px;
+        line-height: 26px;
+        margin: 0.5rem 0;
+    }
+}

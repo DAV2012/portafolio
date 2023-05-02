@@ -1,0 +1,22 @@
+@import url(_reset.css);
+@import url(_variables.css);
+
+body {
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+  cursor: pointer;
+  font-family: 'Raleway';
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  width: 100vw;
+}
+
+.main{
+  padding: 0 0 0 0px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
